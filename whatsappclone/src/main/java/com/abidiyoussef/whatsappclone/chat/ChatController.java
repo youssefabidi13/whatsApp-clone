@@ -2,6 +2,7 @@ package com.abidiyoussef.whatsappclone.chat;
 
 import com.abidiyoussef.whatsappclone.common.StringResponse;
 //import io.swagger.v3.oas.annotations.tags.Tag;
+import io.swagger.v3.oas.annotations.tags.Tag;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.core.Authentication;
@@ -16,7 +17,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/api/v1/chats")
 @RequiredArgsConstructor
-//@Tag(name = "Chat")
+@Tag(name = "Chat")
 public class ChatController {
 
     private final ChatService chatService;
