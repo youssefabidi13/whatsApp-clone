@@ -1,4 +1,5 @@
 package com.abidiyoussef.whatsappclone.user;
+import com.abidiyoussef.whatsappclone.chat.Chat;
 import com.abidiyoussef.whatsappclone.common.BaseAuditingEntity;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;

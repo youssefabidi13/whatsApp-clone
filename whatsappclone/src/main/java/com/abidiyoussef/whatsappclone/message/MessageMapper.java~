@@ -1,6 +1,5 @@
 package com.abidiyoussef.whatsappclone.message;
 
-import com.abidiyoussef.whatsappclone.file.FileUtils;
 import org.springframework.stereotype.Service;
 
 @Service
